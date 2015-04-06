@@ -1,0 +1,17 @@
+2015-04-01 08:52:35,235 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-04-01 08:52:41,082 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-04-01 08:52:41,651 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-04-01 08:52:41,706 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-04-01 08:52:42,310 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-04-01 08:53:04,091 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-04-01 08:53:04,096 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-04-01 08:53:16,583 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2015-04-01 08:53:16,588 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-04-01 08:53:20,631 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "i386"}']'
+2015-04-01 08:53:20,656 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-04-01 08:53:20,686 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2015-04-01 08:53:21,507 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2015-04-01 08:59:33,900 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()

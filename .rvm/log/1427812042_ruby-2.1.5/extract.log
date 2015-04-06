@@ -1,0 +1,65 @@
+[2015-03-31 22:29:35] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __tempdir __path __file __return;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$1" "$__tempdir" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$2/${__file}" ]]; then
+                \command \rm -rf "$2/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$2/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/hobe/.rvm/src
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin
+command(3): __rvm_package_extract /home/hobe/.rvm/archives/ruby-2.1.5.tar.bz2 /home/hobe/.rvm/tmp/rvm_src_16311
+++ rvm_debug __rvm_package_extract:2: /home/hobe/.rvm/archives/ruby-2.1.5.tar.bz2 /home/hobe/.rvm/tmp/rvm_src_16311
+++ ((  0  ))
+++ return 0
+++ typeset __tempdir __path __file __return
+++ __return=0
++++ TMPDIR=/home/hobe/.rvm/tmp
++++ mktemp -d -t rvm-tmp.XXXXXXXXX
+++ __tempdir=/home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG
+++ __rvm_package_extract_run /home/hobe/.rvm/archives/ruby-2.1.5.tar.bz2 /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG
+++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
+++ __rvm_grep -- --no-same-owner
+++ __rvm_tar --help
+++ GREP_OPTIONS=
+++ command grep -- --no-same-owner
+++ grep -- --no-same-owner
+++ rvm_tar_options=--no-same-owner
+++ [[ -d /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG ]]
+++ case "$1" in
+++ [[ -n '' ]]
+++ __rvm_tar xjf /home/hobe/.rvm/archives/ruby-2.1.5.tar.bz2 -C /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG --no-same-owner
+++ tar xjf /home/hobe/.rvm/archives/ruby-2.1.5.tar.bz2 -C /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG --no-same-owner
+++ __rvm_fix_group_permissions /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG/ruby-2.1.5
+++ umask -S
+++ __rvm_grep g=rw
+++ GREP_OPTIONS=
+++ command grep g=rw
+++ grep g=rw
+++ chmod -R g+rwX /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG/ruby-2.1.5
+++ ((  __return == 0  ))
+++ for __path in '"$__tempdir"/*'
+++ __file=ruby-2.1.5
+++ [[ -n ruby-2.1.5 ]]
+++ [[ -e /home/hobe/.rvm/tmp/rvm_src_16311/ruby-2.1.5 ]]
+++ command mv -f /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG/ruby-2.1.5 /home/hobe/.rvm/tmp/rvm_src_16311/
+++ mv -f /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG/ruby-2.1.5 /home/hobe/.rvm/tmp/rvm_src_16311/
+++ [[ -n /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG ]]
+++ command rm -rf /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG
+++ rm -rf /home/hobe/.rvm/tmp/rvm-tmp.7mlQWU3FG
+++ return 0

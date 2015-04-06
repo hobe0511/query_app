@@ -1,0 +1,16 @@
+/home/hobe/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20150406-6250-1aggt8s.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling breakpoint.c
+compiling threads.c
+compiling context.c
+compiling locker.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150406-6250-1npkz4w/byebug
+installing default byebug libraries

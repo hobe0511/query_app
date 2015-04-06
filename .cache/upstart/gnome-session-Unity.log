@@ -1,0 +1,84 @@
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 5980 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 5980 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6011 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6011 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6041 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6041 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6073 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6073 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6105 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6105 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6137 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6137 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+ERROR 2015-04-06 11:56:41 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2015-04-06 11:56:41 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2015-04-06 11:56:41 unityding->source != null <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6168 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6168 was not found when attempting to remove it
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+
+(sublime_text:10343): GLib-CRITICAL **: Source ID 3354660 was not found when attempting to remove it
+
+(sublime_text:10343): GLib-CRITICAL **: Source ID 3354818 was not found when attempting to remove it
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test1" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/_form.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/edit.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/stylesheets/nav.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/assets/stylesheets/global.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/new" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/javascripts/application.js" was not found, exec: sublime_text, mime_type: application/javascript
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
+
+** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/Gemfile" was not found, exec: sublime_text, mime_type: application/octet-stream

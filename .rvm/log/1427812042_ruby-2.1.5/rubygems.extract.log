@@ -1,0 +1,65 @@
+[2015-03-31 22:40:52] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __tempdir __path __file __return;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$1" "$__tempdir" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$2/${__file}" ]]; then
+                \command \rm -rf "$2/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$2/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/hobe/.rvm/src/ruby-2.1.5
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin
+command(3): __rvm_package_extract /home/hobe/.rvm/archives/rubygems-2.4.6.tgz /home/hobe/.rvm/src
+++ rvm_debug __rvm_package_extract:2: /home/hobe/.rvm/archives/rubygems-2.4.6.tgz /home/hobe/.rvm/src
+++ ((  0  ))
+++ return 0
+++ typeset __tempdir __path __file __return
+++ __return=0
++++ TMPDIR=/home/hobe/.rvm/tmp
++++ mktemp -d -t rvm-tmp.XXXXXXXXX
+++ __tempdir=/home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH
+++ __rvm_package_extract_run /home/hobe/.rvm/archives/rubygems-2.4.6.tgz /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH
+++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
+++ __rvm_tar --help
+++ __rvm_grep -- --no-same-owner
+++ GREP_OPTIONS=
+++ command grep -- --no-same-owner
+++ grep -- --no-same-owner
+++ rvm_tar_options=--no-same-owner
+++ [[ -d /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH ]]
+++ case "$1" in
+++ [[ -n '' ]]
+++ __rvm_tar xzf /home/hobe/.rvm/archives/rubygems-2.4.6.tgz -C /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH --no-same-owner
+++ tar xzf /home/hobe/.rvm/archives/rubygems-2.4.6.tgz -C /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH --no-same-owner
+++ __rvm_fix_group_permissions /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH/rubygems-2.4.6
+++ __rvm_grep g=rw
+++ GREP_OPTIONS=
+++ umask -S
+++ command grep g=rw
+++ grep g=rw
+++ chmod -R g+rwX /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH/rubygems-2.4.6
+++ ((  __return == 0  ))
+++ for __path in '"$__tempdir"/*'
+++ __file=rubygems-2.4.6
+++ [[ -n rubygems-2.4.6 ]]
+++ [[ -e /home/hobe/.rvm/src/rubygems-2.4.6 ]]
+++ command mv -f /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH/rubygems-2.4.6 /home/hobe/.rvm/src/
+++ mv -f /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH/rubygems-2.4.6 /home/hobe/.rvm/src/
+++ [[ -n /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH ]]
+++ command rm -rf /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH
+++ rm -rf /home/hobe/.rvm/tmp/rvm-tmp.VDhXGJ7HH
+++ return 0

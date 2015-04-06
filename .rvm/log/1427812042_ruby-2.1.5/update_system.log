@@ -1,0 +1,117 @@
+[2015-03-31 22:27:23] requirements_debian_update_system
+requirements_debian_update_system () 
+{ 
+    __rvm_try_sudo apt-get --quiet --yes update || { 
+        \typeset __ret=$?;
+        case ${__ret} in 
+            100)
+                rvm_error "There has been error while updating 'apt-get', please give it some time and try again later.
+404 errors should be fixed for rvm to proceed. Check your sources configured in:
+    /etc/apt/sources.list
+    /etc/apt/sources.list.d/*.list
+"
+            ;;
+        esac;
+        return ${__ret}
+    }
+}
+current path: /home/hobe
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin
+command(2): requirements_debian_update_system ruby-2.1.5
+++ __rvm_try_sudo apt-get --quiet --yes update
+++ typeset -a command_to_run
+++ typeset sudo_path sbin_path missing_paths
+++ command_to_run=("$@")
+++ ((  UID == 0  ))
+++ case "$rvm_autolibs_flag_number" in
+++ is_a_function __rvm_sudo
+++ typeset -f __rvm_sudo
+++ missing_paths=
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin: != *\:\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin: != *\:\/\u\s\r\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/local/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hobe/.rvm/bin:/home/hobe/.rvm/bin: != *\:\/\u\s\r\/\l\o\c\a\l\/\s\b\i\n\:* ]]
+++ [[ -n '' ]]
+++ command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ __rvm_sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ command sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+Sorry, try again.
+Ign http://tw.archive.ubuntu.com trusty InRelease
+Ign http://tw.archive.ubuntu.com trusty-updates InRelease
+Ign http://tw.archive.ubuntu.com trusty-backports InRelease
+Hit http://tw.archive.ubuntu.com trusty Release.gpg
+Get:1 http://tw.archive.ubuntu.com trusty-updates Release.gpg [933 B]
+Hit http://tw.archive.ubuntu.com trusty-backports Release.gpg
+Hit http://tw.archive.ubuntu.com trusty Release
+Get:2 http://tw.archive.ubuntu.com trusty-updates Release [63.5 kB]
+Hit http://tw.archive.ubuntu.com trusty-backports Release
+Hit http://tw.archive.ubuntu.com trusty/main Sources
+Hit http://tw.archive.ubuntu.com trusty/restricted Sources
+Hit http://tw.archive.ubuntu.com trusty/universe Sources
+Hit http://tw.archive.ubuntu.com trusty/multiverse Sources
+Hit http://tw.archive.ubuntu.com trusty/main i386 Packages
+Hit http://tw.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://tw.archive.ubuntu.com trusty/universe i386 Packages
+Ign http://extras.ubuntu.com trusty InRelease
+Hit http://tw.archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://tw.archive.ubuntu.com trusty/main Translation-en
+Hit http://tw.archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://tw.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://tw.archive.ubuntu.com trusty/universe Translation-en
+Get:3 http://extras.ubuntu.com trusty Release.gpg [72 B]
+Get:4 http://tw.archive.ubuntu.com trusty-updates/main Sources [189 kB]
+Get:5 http://tw.archive.ubuntu.com trusty-updates/restricted Sources [2,564 B]
+Get:6 http://tw.archive.ubuntu.com trusty-updates/universe Sources [107 kB]
+Get:7 http://tw.archive.ubuntu.com trusty-updates/multiverse Sources [4,765 B]
+Hit http://extras.ubuntu.com trusty Release
+Get:8 http://tw.archive.ubuntu.com trusty-updates/main i386 Packages [477 kB]
+Ign http://security.ubuntu.com trusty-security InRelease
+Get:9 http://tw.archive.ubuntu.com trusty-updates/restricted i386 Packages [9,256 B]
+Get:10 http://tw.archive.ubuntu.com trusty-updates/universe i386 Packages [261 kB]
+Hit http://extras.ubuntu.com trusty/main Sources
+Get:11 http://tw.archive.ubuntu.com trusty-updates/multiverse i386 Packages [11.9 kB]
+Hit http://tw.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://tw.archive.ubuntu.com trusty-updates/multiverse Translation-en
+Hit http://tw.archive.ubuntu.com trusty-updates/restricted Translation-en
+Hit http://tw.archive.ubuntu.com trusty-updates/universe Translation-en
+Get:12 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+Hit http://tw.archive.ubuntu.com trusty-backports/main Sources
+Hit http://tw.archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://tw.archive.ubuntu.com trusty-backports/universe Sources
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit http://tw.archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://tw.archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://tw.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Hit http://tw.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://tw.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://tw.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://tw.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Get:13 http://security.ubuntu.com trusty-security Release [63.5 kB]
+Hit http://tw.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://tw.archive.ubuntu.com trusty-backports/universe Translation-en
+Ign http://tw.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://tw.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://tw.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://tw.archive.ubuntu.com trusty/universe Translation-en_US
+Get:14 http://security.ubuntu.com trusty-security/main Sources [76.1 kB]
+Get:15 http://security.ubuntu.com trusty-security/restricted Sources [2,061 B]
+Ign http://extras.ubuntu.com trusty/main Translation-en_US
+Get:16 http://security.ubuntu.com trusty-security/universe Sources [18.0 kB]
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Get:17 http://security.ubuntu.com trusty-security/multiverse Sources [1,905 B]
+Get:18 http://security.ubuntu.com trusty-security/main i386 Packages [242 kB]
+Get:19 http://security.ubuntu.com trusty-security/restricted i386 Packages [8,846 B]
+Get:20 http://security.ubuntu.com trusty-security/universe i386 Packages [89.6 kB]
+Get:21 http://security.ubuntu.com trusty-security/multiverse i386 Packages [3,628 B]
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Fetched 1,634 kB in 10s (163 kB/s)
+Reading package lists...

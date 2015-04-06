@@ -1,0 +1,42 @@
+Job.count
+Job.all
+quit
+code font
+1+1
+"benjen".upcase
+"like".length
+"sad".reverse
+"love"+"benjen"
+"1"+2.to_s
+color="red"
+fruit="melon"
+fruit.upcase
+color+fruit
+seconds_per_minute = 60
+minutes_per_hour = 60
+hours_per_day = 24
+seconds_per_day = seconds_per_minute * minutes_per_day * hours_per_day
+snack=fruit
+fruit="banana"
+snack=fruit.upcase
+color.upcase!
+fruit.upcase!
+fruit="apple"
+fruit=nil
+fruit.reverse
+pwd
+"hobe".length
+ruby test.rb
+1<2
+1+1==2
+1+1=2
+fruits = ["apple", "banana", "cherry"]
+fruit[1]
+fruits[1]
+fruits[99]
+fruits.reverse
+fruits.shuffle
+fruits.join
+fruits.to_s
+puts fruits.to_s
+exit
