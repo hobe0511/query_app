@@ -14,16 +14,19 @@ init: at-spi2-registryd main process ended, respawning
 init: at-spi2-registryd main process ended, respawning
 init: at-spi2-registryd main process ended, respawning
 init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
+init: at-spi2-registryd main process ended, respawning
 init: at-spi2-registryd respawning too fast, stopped
-init: unity-settings-daemon main process ended, respawning
-init: hud main process (1866) terminated with status 1
-init: gnome-session (Unity) main process (1874) terminated with status 1
-init: unity-panel-service main process (1880) terminated with status 1
-init: indicator-printers main process (1964) terminated with status 1
-init: indicator-bluetooth main process (1951) killed by TERM signal
-init: indicator-power main process (1953) killed by TERM signal
-init: indicator-datetime main process (1956) killed by TERM signal
-init: indicator-session main process (1969) killed by TERM signal
-init: unity-settings-daemon main process (3013) killed by TERM signal
-init: indicator-application main process (1989) killed by TERM signal
-init: Disconnected from notified D-Bus bus

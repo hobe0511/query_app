@@ -1,0 +1,1329 @@
+{
+	"folder_history":
+	[
+		"/home/hobe/search_app",
+		"/home/hobe/course_app",
+		"/home/hobe/search",
+		"/home/hobe/course_search"
+	],
+	"last_window_id": 8,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"first",
+						"first_name"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hobe/search/app/views/home/index.html.rb",
+				"/home/hobe/railsbridge/test_app/app/assets/javascripts/application.js",
+				"/home/hobe/job_board/config/routes.rb",
+				"/home/hobe/job_board/app/views/jobs/new",
+				"/home/hobe/railsbridge/test_app/Gemfile",
+				"/home/hobe/railsbridge/test_app/config/routes.rb"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"g",
+						"Gemfile"
+					],
+					[
+						"cour",
+						"app/controllers/courses_controller.rb"
+					],
+					[
+						"home",
+						"app/controllers/home_controller.rb"
+					],
+					[
+						"courses",
+						"db/migrate/20150406072921_create_courses.rb"
+					],
+					[
+						"route",
+						"/home/hobe/railsbridge/test_app/config/routes.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"first",
+						"first_name"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/hobe/search/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1619,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/search/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 66,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/search/app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 117,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/search/app/controllers/courses_controller.rb",
+					"settings":
+					{
+						"buffer_size": 52,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/search/app/views/courses/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 116,
+						"line_ending": "Unix",
+						"name": "<h2>Course Query</h2>"
+					}
+				},
+				{
+					"file": "/home/hobe/search/app/views/courses/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 275,
+						"line_ending": "Unix",
+						"name": "<h2>New Course</h2>"
+					}
+				},
+				{
+					"contents": "class CreateCourses < ActiveRecord::Migration\n  def change\n    create_table :courses do |t|\n      t.string :title\n      t.text :content\n\n      t.timestamps null: false\n    end\n  end\nend\n",
+					"file": "/home/hobe/search/db/migrate/20150406072921_create_courses.rb",
+					"file_size": 186,
+					"file_write_time": 1428305361000000,
+					"settings":
+					{
+						"buffer_size": 186,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hobe/search/app/views/home/index.html.rb",
+				"/home/hobe/railsbridge/test_app/app/assets/javascripts/application.js",
+				"/home/hobe/job_board/config/routes.rb",
+				"/home/hobe/job_board/app/views/jobs/new",
+				"/home/hobe/railsbridge/test_app/Gemfile",
+				"/home/hobe/railsbridge/test_app/config/routes.rb"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/hobe/search"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/hobe/search/config/routes.rb",
+							"settings":
+							{
+								"buffer_size": 1619,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										276,
+										276
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/hobe/search/app/controllers/home_controller.rb",
+							"settings":
+							{
+								"buffer_size": 66,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										61,
+										61
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/hobe/search/app/views/home/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 117,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										99,
+										99
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/hobe/search/app/controllers/courses_controller.rb",
+							"settings":
+							{
+								"buffer_size": 52,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/hobe/search/app/views/courses/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 116,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										108,
+										108
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<h2>Course Query</h2>",
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/hobe/search/app/views/courses/new.html.erb",
+							"settings":
+							{
+								"buffer_size": 275,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										274,
+										274
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<h2>New Course</h2>",
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/hobe/search/db/migrate/20150406072921_create_courses.rb",
+							"settings":
+							{
+								"buffer_size": 186,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,417,91,1090,571,1366,663",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"courses",
+						"db/migrate/20150406072921_create_courses.rb"
+					],
+					[
+						"home",
+						"app/controllers/home_controller.rb"
+					],
+					[
+						"route",
+						"/home/hobe/railsbridge/test_app/config/routes.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 4,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"first",
+						"first_name"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/hobe/course_app/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1618,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 68,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 104,
+						"line_ending": "Unix",
+						"name": "<h2>Course Query</h2>"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/controllers/courses_controller.rb",
+					"settings":
+					{
+						"buffer_size": 710,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/views/courses/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 273,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/views/courses/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 57,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/views/courses/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 214,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/app/views/courses/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 273,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/course_app/Gemfile",
+					"settings":
+					{
+						"buffer_size": 1497,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hobe/search/app/views/home/index.html.rb",
+				"/home/hobe/railsbridge/test_app/app/assets/javascripts/application.js",
+				"/home/hobe/job_board/config/routes.rb",
+				"/home/hobe/job_board/app/views/jobs/new",
+				"/home/hobe/railsbridge/test_app/Gemfile",
+				"/home/hobe/railsbridge/test_app/config/routes.rb"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/hobe/course_app"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/hobe/course_app/config/routes.rb",
+							"settings":
+							{
+								"buffer_size": 1618,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										275,
+										275
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/hobe/course_app/app/controllers/home_controller.rb",
+							"settings":
+							{
+								"buffer_size": 68,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										58,
+										58
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/hobe/course_app/app/views/home/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 104,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										97,
+										97
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<h2>Course Query</h2>",
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/hobe/course_app/app/controllers/courses_controller.rb",
+							"settings":
+							{
+								"buffer_size": 710,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										160,
+										160
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/hobe/course_app/app/views/courses/edit.html.erb",
+							"settings":
+							{
+								"buffer_size": 273,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										273,
+										273
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/hobe/course_app/app/views/courses/show.html.erb",
+							"settings":
+							{
+								"buffer_size": 57,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										57,
+										57
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/hobe/course_app/app/views/courses/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 214,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										201,
+										201
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/hobe/course_app/app/views/courses/new.html.erb",
+							"settings":
+							{
+								"buffer_size": 273,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										148,
+										148
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/hobe/course_app/Gemfile",
+							"settings":
+							{
+								"buffer_size": 1497,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1344,
+										1344
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 215.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,1366,663",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"g",
+						"Gemfile"
+					],
+					[
+						"cour",
+						"app/controllers/courses_controller.rb"
+					],
+					[
+						"home",
+						"app/controllers/home_controller.rb"
+					],
+					[
+						"courses",
+						"db/migrate/20150406072921_create_courses.rb"
+					],
+					[
+						"route",
+						"/home/hobe/railsbridge/test_app/config/routes.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 7,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"first",
+						"first_name"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/hobe/search_app/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1597,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/hobe/search_app/app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 21,
+						"line_ending": "Unix",
+						"name": "<h2>Course Query</h2>"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hobe/search/app/views/home/index.html.rb",
+				"/home/hobe/railsbridge/test_app/app/assets/javascripts/application.js",
+				"/home/hobe/job_board/config/routes.rb",
+				"/home/hobe/job_board/app/views/jobs/new",
+				"/home/hobe/railsbridge/test_app/Gemfile",
+				"/home/hobe/railsbridge/test_app/config/routes.rb"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/hobe/search_app"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/hobe/search_app/config/routes.rb",
+							"settings":
+							{
+								"buffer_size": 1597,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										246,
+										246
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/hobe/search_app/app/views/home/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 21,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										16,
+										16
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<h2>Course Query</h2>",
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,65,24,705,504,1366,663",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"g",
+						"Gemfile"
+					],
+					[
+						"cour",
+						"app/controllers/courses_controller.rb"
+					],
+					[
+						"home",
+						"app/controllers/home_controller.rb"
+					],
+					[
+						"courses",
+						"db/migrate/20150406072921_create_courses.rb"
+					],
+					[
+						"route",
+						"/home/hobe/railsbridge/test_app/config/routes.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 8,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

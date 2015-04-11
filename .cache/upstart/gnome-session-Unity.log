@@ -1,84 +1,140 @@
+ERROR 2015-04-11 17:52:39 unity.settings UnitySettings.cpp:250 Invalid monitor index: -1. Returning index 0 monitor instead.
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 5980 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/search_app/app/views/home/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 5980 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_app/app/views/courses/edit.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6011 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_app/app/views/courses/show.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6011 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_app/app/views/courses/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6041 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_app/app/views/courses/new.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6041 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_app/app/views/home/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6073 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/search/app/views/courses/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6073 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/search/app/views/courses/new.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6105 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/course_search/app/views/home/index.html.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6105 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6137 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test1" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6137 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-ERROR 2015-04-06 11:56:41 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
-ERROR 2015-04-06 11:56:41 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
-ERROR 2015-04-06 11:56:41 unityding->source != null <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/_form.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6168 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/edit.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 6168 was not found when attempting to remove it
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
-required_download could not be calculated: E:Can't find a source to download version '1.6~git20131207+dfsg-1ubuntu1.1' of 'libroken18-heimdal:i386'
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/stylesheets/nav.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(sublime_text:10343): GLib-CRITICAL **: Source ID 3354660 was not found when attempting to remove it
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/assets/stylesheets/global.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-(sublime_text:10343): GLib-CRITICAL **: Source ID 3354818 was not found when attempting to remove it
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/new" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/test/test1" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/_form.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/edit.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/stylesheets/nav.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/javascripts/application.js" was not found, exec: sublime_text, mime_type: application/javascript
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/assets/stylesheets/global.css.scss" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
+** (zeitgeist-datahub:2364): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/Gemfile" was not found, exec: sublime_text, mime_type: application/octet-stream
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/new" was not found, exec: sublime_text, mime_type: application/octet-stream
+(process:2984): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
+get_securityUI@chrome://global/content/bindings/browser.xml:662:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
 
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
-
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/job_board/app/views/jobs/index.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
-
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/views/layouts/application.html.erb" was not found, exec: sublime_text, mime_type: application/octet-stream
-
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/app/assets/javascripts/application.js" was not found, exec: sublime_text, mime_type: application/javascript
-
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/config/routes.rb" was not found, exec: sublime_text, mime_type: application/x-ruby
-
-** (zeitgeist-datahub:2370): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/hobe/railsbridge/test_app/Gemfile" was not found, exec: sublime_text, mime_type: application/octet-stream
+(firefox:2984): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+@chrome://browser/content/content.js:37:5
+addTab@chrome://browser/content/tabbrowser.xml:1642:13
+restoreSingleTab@chrome://browser/content/aboutSessionRestore.js:217:16
+onListClick@chrome://browser/content/aboutSessionRestore.js:158:7
+onclick@about:sessionrestore:1:1
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
+get_securityUI@chrome://global/content/bindings/browser.xml:662:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+@chrome://browser/content/content.js:37:5
+addTab@chrome://browser/content/tabbrowser.xml:1642:13
+ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2292:1
+ssi_setWindowState@resource:///modules/sessionstore/SessionStore.jsm:1515:5
+ss_setWindowState@resource:///modules/sessionstore/SessionStore.jsm:171:5
+observe@chrome://browser/content/aboutSessionRestore.js:126:5
+gBrowserInit._delayedStartup@chrome://browser/content/browser.js:10729:5
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+@chrome://browser/content/content.js:37:5
+addTab@chrome://browser/content/tabbrowser.xml:1642:13
+ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2292:1
+ssi_setWindowState@resource:///modules/sessionstore/SessionStore.jsm:1515:5
+ss_setWindowState@resource:///modules/sessionstore/SessionStore.jsm:171:5
+observe@chrome://browser/content/aboutSessionRestore.js:126:5
+gBrowserInit._delayedStartup@chrome://browser/content/browser.js:10729:5
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24

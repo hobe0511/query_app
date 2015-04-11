@@ -778,14 +778,15 @@
   };
 
 }).call(this);
-ÕŠÅ…£Õ      U›;U›;; Ë‡       S:http://localhost:3000/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1 necko:classified 1 request-method GET response-head HTTP/1.1 200 OK 
+¯§µö£Õ      U(ñ·U(ñ¸;CTW
+%7   S:http://localhost:3000/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1 request-method GET response-head HTTP/1.1 200 OK 
 Content-Type: application/javascript
 Content-Length: 24817
-Cache-Control: no-cache
+Cache-Control: public, max-age=31536000
 Last-Modified: Tue, 31 Mar 2015 16:13:46 GMT
 Etag: "f87b3583ca50adb0488b031297f5580d"
-X-Request-Id: 6775f832-35bc-48cf-b0dd-c2fcf1ff3331
-X-Runtime: 0.026672
+X-Request-Id: 988b4462-628e-44a8-b461-dc3e78741e0d
+X-Runtime: 0.024099
 Server: WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
-Date: Sat, 04 Apr 2015 08:05:15 GMT
- uncompressed-len 0   `ñessed-len 0   `ñ
+Date: Sat, 11 Apr 2015 10:04:40 GMT
+ uncompressed-len 0   `ñ `ñessed-len 0   `ñ

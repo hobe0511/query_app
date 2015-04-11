@@ -210,4 +210,104 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/hobe/course_search/app/views/home/index.html.rb" added="2015-04-06T06:46:36Z" modified="2015-04-06T06:46:36Z" visited="2015-04-06T06:46:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-06T06:46:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/search/app/views/home/index.html.rb" added="2015-04-06T07:03:51Z" modified="2015-04-06T07:03:51Z" visited="2015-04-06T07:03:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-06T07:03:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/search/app/views/courses/new.html.erb" added="2015-04-07T13:03:00Z" modified="2015-04-07T13:03:00Z" visited="2015-04-07T13:03:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-07T13:03:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/search/app/views/courses/index.html.erb" added="2015-04-07T13:55:39Z" modified="2015-04-07T13:55:39Z" visited="2015-04-07T13:55:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-07T13:55:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/course_app/app/views/home/index.html.erb" added="2015-04-09T01:47:25Z" modified="2015-04-09T01:47:25Z" visited="2015-04-09T01:47:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-09T01:47:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/course_app/app/views/courses/new.html.erb" added="2015-04-09T01:58:04Z" modified="2015-04-09T01:58:04Z" visited="2015-04-09T01:58:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-09T01:58:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/course_app/app/views/courses/index.html.erb" added="2015-04-09T02:43:43Z" modified="2015-04-09T02:43:43Z" visited="2015-04-09T02:43:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-09T02:43:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/course_app/app/views/courses/show.html.erb" added="2015-04-09T02:58:10Z" modified="2015-04-09T02:58:10Z" visited="2015-04-09T02:58:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-09T02:58:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/course_app/app/views/courses/edit.html.erb" added="2015-04-09T03:24:48Z" modified="2015-04-09T03:24:48Z" visited="2015-04-09T03:24:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-09T03:24:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hobe/search_app/app/views/home/index.html.erb" added="2015-04-11T10:02:50Z" modified="2015-04-11T10:02:50Z" visited="2015-04-11T10:02:51.005785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2015-04-11T10:02:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

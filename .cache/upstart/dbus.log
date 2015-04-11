@@ -1,30 +1,25 @@
-Activating service name='com.ubuntu.OneConf'
-Successfully activated service 'com.ubuntu.OneConf'
-WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/hobe/.cache/oneconf/2acd8ccfc7699e41e7b4afae5513fd36/other_hosts'
-Activating service name='com.ubuntu.sso'
-Successfully activated service 'com.ubuntu.sso'
-Activating service name='com.ubuntu.sso'
-Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Webapps.Service'
+Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-common 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml-doc 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml-examples 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-service 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-amazoncloudreader 
 
 ** Message: Investigating webapp: unity-webapps-bbcnews 
@@ -36,7 +31,7 @@ Successfully activated service 'com.ubuntu.sso'
 ** Message: Investigating webapp: unity-webapps-dev 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-deviantart 
 
 ** Message: Investigating webapp: unity-webapps-facebookmessenger 
@@ -46,7 +41,7 @@ Successfully activated service 'com.ubuntu.sso'
 ** Message: Investigating webapp: unity-webapps-googleplusgames 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-grooveshark 
 
 ** Message: Investigating webapp: unity-webapps-hulu-player 
@@ -70,7 +65,7 @@ Successfully activated service 'com.ubuntu.sso'
 ** Message: Investigating webapp: unity-webapps-qml-autopilot 
 
 
-** (process:5458): WARNING **: Found newline before all of metadata, skipping app
+** (process:3011): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qq-mail 
 
 ** Message: Investigating webapp: unity-webapps-reddit 
@@ -109,5 +104,3 @@ Successfully activated service 'com.ubuntu.sso'
 
 ** Message: Investigating webapp: unity-webapps-youtube 
 
-module-cache-reaper-Message: Reaping abandoned data directories
-module-cache-reaper-Message: Reaping abandoned cache directories
